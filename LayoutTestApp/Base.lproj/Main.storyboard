@@ -102,7 +102,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clw-kw-AoA" userLabel="Button">
                                 <rect key="frame" x="0.0" y="748" width="393" height="70"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZU-jX-bKh">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZU-jX-bKh" customClass="MyButton" customModule="LayoutTestApp" customModuleProvider="target">
                                         <rect key="frame" x="30" y="0.0" width="333" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="qKq-h0-Lgm"/>
@@ -116,6 +116,7 @@
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JM8-LL-gl3"/>
@@ -155,6 +156,11 @@
             <point key="canvasLocation" x="98" y="4"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="yZU-jX-bKh">
+            <size key="intrinsicContentSize" width="145" height="35.666666666666664"/>
+        </designable>
+    </designables>
     <resources>
         <image name="img-coffee" width="562" height="530"/>
         <systemColor name="systemBackgroundColor">

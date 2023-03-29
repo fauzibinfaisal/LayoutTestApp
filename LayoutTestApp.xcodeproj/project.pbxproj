@@ -15,6 +15,7 @@
 		EB52A4ED29D47D2C00C83B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52A4EB29D47D2C00C83B12 /* LaunchScreen.storyboard */; };
 		EB52A4F729D4832000C83B12 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52A4F529D4832000C83B12 /* DetailViewController.swift */; };
 		EB52A4F829D4832000C83B12 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB52A4F629D4832000C83B12 /* DetailViewController.xib */; };
+		EB52A4FA29D488E400C83B12 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52A4F929D488E400C83B12 /* MyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EB52A4EE29D47D2C00C83B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB52A4F529D4832000C83B12 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EB52A4F629D4832000C83B12 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EB52A4F929D488E400C83B12 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				EB52A4E929D47D2C00C83B12 /* Assets.xcassets */,
 				EB52A4EB29D47D2C00C83B12 /* LaunchScreen.storyboard */,
 				EB52A4EE29D47D2C00C83B12 /* Info.plist */,
+				EB52A4F929D488E400C83B12 /* MyButton.swift */,
 			);
 			path = LayoutTestApp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				EB52A4E529D47D2A00C83B12 /* ViewController.swift in Sources */,
 				EB52A4E129D47D2A00C83B12 /* AppDelegate.swift in Sources */,
+				EB52A4FA29D488E400C83B12 /* MyButton.swift in Sources */,
 				EB52A4E329D47D2A00C83B12 /* SceneDelegate.swift in Sources */,
 				EB52A4F729D4832000C83B12 /* DetailViewController.swift in Sources */,
 			);

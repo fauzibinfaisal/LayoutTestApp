@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var button: MyButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     }
     
     func setupUI() {
+        button.layer.cornerRadius = 25
+        button.layoutSubviews()
     }
 
     @IBAction func buttonTapped(_ sender: Any) {
