@@ -10,10 +10,14 @@ import UIKit
 class ViewController: UIViewController {
     
     
-
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupUI()
+    }
+    
+    func setupUI() {
     }
 
     @IBAction func buttonTapped(_ sender: Any) {

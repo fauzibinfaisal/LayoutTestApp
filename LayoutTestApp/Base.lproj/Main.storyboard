@@ -43,47 +43,47 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpb-lK-lCN" userLabel="Dot">
-                                <rect key="frame" x="111.66666666666669" y="668" width="170" height="50"/>
+                                <rect key="frame" x="122" y="668" width="149" height="50"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ex9-vG-j0k">
-                                        <rect key="frame" x="29.999999999999986" y="0.0" width="110.00000000000001" height="50"/>
+                                        <rect key="frame" x="30" y="0.0" width="89" height="50"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mNQ-Qe-gbM">
-                                                <rect key="frame" x="0.0" y="15" width="40" height="20"/>
+                                                <rect key="frame" x="0.0" y="17" width="30" height="16"/>
                                                 <color key="backgroundColor" red="0.021951181810000001" green="0.4568628669" blue="0.30193895100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="20" id="ZpC-pE-M9O"/>
-                                                    <constraint firstAttribute="width" constant="40" id="uO6-Iv-CDk"/>
+                                                    <constraint firstAttribute="height" constant="16" id="ZpC-pE-M9O"/>
+                                                    <constraint firstAttribute="width" constant="30" id="uO6-Iv-CDk"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="10"/>
+                                                        <integer key="value" value="8"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zqT-ov-7cD">
-                                                <rect key="frame" x="50" y="15" width="20" height="20"/>
+                                                <rect key="frame" x="40" y="17" width="16" height="16"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="20" id="4MF-Th-9lb"/>
-                                                    <constraint firstAttribute="height" constant="20" id="mX4-Ps-LyF"/>
+                                                    <constraint firstAttribute="width" constant="16" id="4MF-Th-9lb"/>
+                                                    <constraint firstAttribute="height" constant="16" id="mX4-Ps-LyF"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="10"/>
+                                                        <integer key="value" value="8"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pB8-mh-MKN">
-                                                <rect key="frame" x="90" y="15" width="20" height="20"/>
+                                                <rect key="frame" x="73" y="17" width="16" height="16"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="20" id="0ZK-sp-8au"/>
-                                                    <constraint firstAttribute="width" constant="20" id="A0R-PZ-1Nn"/>
+                                                    <constraint firstAttribute="height" constant="16" id="0ZK-sp-8au"/>
+                                                    <constraint firstAttribute="width" constant="16" id="A0R-PZ-1Nn"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="10"/>
+                                                        <integer key="value" value="8"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
@@ -146,6 +146,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fWl-P2-4OY" secondAttribute="trailing" constant="30" id="gRx-Wg-rfw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="yZU-jX-bKh" id="exL-ZM-1tu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
